@@ -13,8 +13,8 @@ function login(email, password) {
   // Check if the email and password are valid
   if (email === "example@example.com" && password === "password") {
     // If valid, redirect to the dashboard page
-    alert("Valid email and password.");
-    window.location.href = "https://github.com/yazeedbukhari/tictactoe/blob/main/Dashboard/dashboard.html";
+    //alert("Valid email and password.");
+    window.location.href = "../Dashboard/dashboard.html";
   } else {
     // If invalid, display an error message
     alert("Invalid email or password.");
